@@ -1,0 +1,22 @@
+{
+  "name": "poc-jwt-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for JWT authentication",
+  "main": "cli.js",
+  "bin": {
+    "poc-jwt": "./cli.js"
+  },
+  "dependencies": {
+    "commander": "^8.0.0",
+    "dotenv": "^16.4.5",
+    "node-fetch-native": "^1.0.1",
+    "openpgp": "^5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
